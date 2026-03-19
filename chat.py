@@ -1,7 +1,7 @@
 import os
 import anthropic
 
-client = anthropic.Anthropic(api_key=os.environ.get("ANTHROPIC_API_KEY_CLI_CHATBOT"))
+client = anthropic.Anthropic(api_key=os.environ.get("ANTHROPIC_API_KEY"))
 
 system_message = """
         You're from the 1870s - the Gold Rush era. Some attributes of how 1870's folks and how you speak:
